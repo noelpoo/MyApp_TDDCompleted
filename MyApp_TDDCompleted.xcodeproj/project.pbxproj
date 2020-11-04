@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		456560362551231F005C6EAD /* SignupResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456560352551231F005C6EAD /* SignupResponseModel.swift */; };
+		4565603A255123CC005C6EAD /* SignupErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45656039255123CC005C6EAD /* SignupErrors.swift */; };
+		45B5110425513DE8003E1518 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B5110325513DE8003E1518 /* MockURLProtocol.swift */; };
 		45F8B6C2254FA02800BB878B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B6C1254FA02800BB878B /* AppDelegate.swift */; };
 		45F8B6C4254FA02800BB878B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B6C3254FA02800BB878B /* SceneDelegate.swift */; };
 		45F8B6C6254FA02800BB878B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B6C5254FA02800BB878B /* ViewController.swift */; };
 		45F8B6C9254FA02800BB878B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F8B6C7254FA02800BB878B /* Main.storyboard */; };
 		45F8B6CB254FA02A00BB878B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F8B6CA254FA02A00BB878B /* Assets.xcassets */; };
 		45F8B6CE254FA02A00BB878B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F8B6CC254FA02A00BB878B /* LaunchScreen.storyboard */; };
-		45F8B6D9254FA02A00BB878B /* MyApp_TDDExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B6D8254FA02A00BB878B /* MyApp_TDDExampleTests.swift */; };
-		45F8B6E4254FA02A00BB878B /* MyApp_TDDExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B6E3254FA02A00BB878B /* MyApp_TDDExampleUITests.swift */; };
+		45F8B70A254FA0F900BB878B /* SignUpFormValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B709254FA0F900BB878B /* SignUpFormValidatorTests.swift */; };
+		45F8B712254FA2E800BB878B /* SignUpFormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B711254FA2E800BB878B /* SignUpFormValidator.swift */; };
+		45F8B7192550150F00BB878B /* SignUpFormValidatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B7182550150F00BB878B /* SignUpFormValidatorProtocol.swift */; };
+		45F8B71D25501B6400BB878B /* SignupFormModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B71C25501B6400BB878B /* SignupFormModelProtocol.swift */; };
+		45F8B7212550210500BB878B /* SIgnupWebServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B7202550210500BB878B /* SIgnupWebServiceProtocol.swift */; };
+		45F8B768255107CF00BB878B /* SIgnupWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B767255107CE00BB878B /* SIgnupWebServiceTests.swift */; };
+		45F8B77625510A5700BB878B /* SignupWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B77525510A5700BB878B /* SignupWebServiceTests.swift */; };
+		45F8B77A25510B1300BB878B /* SignupWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B77925510B1300BB878B /* SignupWebService.swift */; };
+		45F8B77E25510CDD00BB878B /* SignupFormRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F8B77D25510CDD00BB878B /* SignupFormRequestModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,17 +35,13 @@
 			remoteGlobalIDString = 45F8B6BD254FA02800BB878B;
 			remoteInfo = MyApp_TDDExample;
 		};
-		45F8B6E0254FA02A00BB878B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45F8B6B6254FA02800BB878B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 45F8B6BD254FA02800BB878B;
-			remoteInfo = MyApp_TDDExample;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		45F8B6BE254FA02800BB878B /* MyApp_TDDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp_TDDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		456560352551231F005C6EAD /* SignupResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupResponseModel.swift; sourceTree = "<group>"; };
+		45656039255123CC005C6EAD /* SignupErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupErrors.swift; sourceTree = "<group>"; };
+		45B5110325513DE8003E1518 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		45F8B6BE254FA02800BB878B /* MyApp_TDDCompleted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp_TDDCompleted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F8B6C1254FA02800BB878B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F8B6C3254FA02800BB878B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		45F8B6C5254FA02800BB878B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +49,17 @@
 		45F8B6CA254FA02A00BB878B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45F8B6CD254FA02A00BB878B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45F8B6CF254FA02A00BB878B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45F8B6D4254FA02A00BB878B /* MyApp_TDDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyApp_TDDExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		45F8B6D8254FA02A00BB878B /* MyApp_TDDExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp_TDDExampleTests.swift; sourceTree = "<group>"; };
+		45F8B6D4254FA02A00BB878B /* MyApp_TDDCompletedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyApp_TDDCompletedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F8B6DA254FA02A00BB878B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45F8B6DF254FA02A00BB878B /* MyApp_TDDExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyApp_TDDExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		45F8B6E3254FA02A00BB878B /* MyApp_TDDExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp_TDDExampleUITests.swift; sourceTree = "<group>"; };
-		45F8B6E5254FA02A00BB878B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F8B709254FA0F900BB878B /* SignUpFormValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormValidatorTests.swift; sourceTree = "<group>"; };
+		45F8B711254FA2E800BB878B /* SignUpFormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormValidator.swift; sourceTree = "<group>"; };
+		45F8B7182550150F00BB878B /* SignUpFormValidatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormValidatorProtocol.swift; sourceTree = "<group>"; };
+		45F8B71C25501B6400BB878B /* SignupFormModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelProtocol.swift; sourceTree = "<group>"; };
+		45F8B7202550210500BB878B /* SIgnupWebServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnupWebServiceProtocol.swift; sourceTree = "<group>"; };
+		45F8B767255107CE00BB878B /* SIgnupWebServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnupWebServiceTests.swift; sourceTree = "<group>"; };
+		45F8B77525510A5700BB878B /* SignupWebServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWebServiceTests.swift; sourceTree = "<group>"; };
+		45F8B77925510B1300BB878B /* SignupWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWebService.swift; sourceTree = "<group>"; };
+		45F8B77D25510CDD00BB878B /* SignupFormRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormRequestModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +77,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45F8B6DC254FA02A00BB878B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4565603D255124F7005C6EAD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45F8B6C5254FA02800BB878B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		45B5110225513DD9003E1518 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				45B5110325513DE8003E1518 /* MockURLProtocol.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		45F8B6B5254FA02800BB878B = {
 			isa = PBXGroup;
 			children = (
 				45F8B6C0254FA02800BB878B /* MyApp_TDDExample */,
 				45F8B6D7254FA02A00BB878B /* MyApp_TDDExampleTests */,
-				45F8B6E2254FA02A00BB878B /* MyApp_TDDExampleUITests */,
 				45F8B6BF254FA02800BB878B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,9 +108,8 @@
 		45F8B6BF254FA02800BB878B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45F8B6BE254FA02800BB878B /* MyApp_TDDExample.app */,
-				45F8B6D4254FA02A00BB878B /* MyApp_TDDExampleTests.xctest */,
-				45F8B6DF254FA02A00BB878B /* MyApp_TDDExampleUITests.xctest */,
+				45F8B6BE254FA02800BB878B /* MyApp_TDDCompleted.app */,
+				45F8B6D4254FA02A00BB878B /* MyApp_TDDCompletedTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +117,12 @@
 		45F8B6C0254FA02800BB878B /* MyApp_TDDExample */ = {
 			isa = PBXGroup;
 			children = (
+				4565603D255124F7005C6EAD /* Controllers */,
+				45F8B76F2551098500BB878B /* Network */,
+				45F8B76C2551083E00BB878B /* Protocols */,
+				45F8B76B2551080300BB878B /* Models */,
 				45F8B6C1254FA02800BB878B /* AppDelegate.swift */,
 				45F8B6C3254FA02800BB878B /* SceneDelegate.swift */,
-				45F8B6C5254FA02800BB878B /* ViewController.swift */,
 				45F8B6C7254FA02800BB878B /* Main.storyboard */,
 				45F8B6CA254FA02A00BB878B /* Assets.xcassets */,
 				45F8B6CC254FA02A00BB878B /* LaunchScreen.storyboard */,
@@ -113,27 +134,66 @@
 		45F8B6D7254FA02A00BB878B /* MyApp_TDDExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				45F8B6D8254FA02A00BB878B /* MyApp_TDDExampleTests.swift */,
+				45B5110225513DD9003E1518 /* Mocks */,
+				45F8B7702551099F00BB878B /* Network */,
+				45F8B76E2551089100BB878B /* Models */,
 				45F8B6DA254FA02A00BB878B /* Info.plist */,
+				45F8B767255107CE00BB878B /* SIgnupWebServiceTests.swift */,
 			);
 			path = MyApp_TDDExampleTests;
 			sourceTree = "<group>";
 		};
-		45F8B6E2254FA02A00BB878B /* MyApp_TDDExampleUITests */ = {
+		45F8B76B2551080300BB878B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				45F8B6E3254FA02A00BB878B /* MyApp_TDDExampleUITests.swift */,
-				45F8B6E5254FA02A00BB878B /* Info.plist */,
+				45F8B711254FA2E800BB878B /* SignUpFormValidator.swift */,
+				45F8B77D25510CDD00BB878B /* SignupFormRequestModel.swift */,
+				456560352551231F005C6EAD /* SignupResponseModel.swift */,
+				45656039255123CC005C6EAD /* SignupErrors.swift */,
 			);
-			path = MyApp_TDDExampleUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		45F8B76C2551083E00BB878B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				45F8B7202550210500BB878B /* SIgnupWebServiceProtocol.swift */,
+				45F8B71C25501B6400BB878B /* SignupFormModelProtocol.swift */,
+				45F8B7182550150F00BB878B /* SignUpFormValidatorProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		45F8B76E2551089100BB878B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45F8B709254FA0F900BB878B /* SignUpFormValidatorTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		45F8B76F2551098500BB878B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				45F8B77925510B1300BB878B /* SignupWebService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		45F8B7702551099F00BB878B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				45F8B77525510A5700BB878B /* SignupWebServiceTests.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		45F8B6BD254FA02800BB878B /* MyApp_TDDExample */ = {
+		45F8B6BD254FA02800BB878B /* MyApp_TDDCompleted */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45F8B6E8254FA02A00BB878B /* Build configuration list for PBXNativeTarget "MyApp_TDDExample" */;
+			buildConfigurationList = 45F8B6E8254FA02A00BB878B /* Build configuration list for PBXNativeTarget "MyApp_TDDCompleted" */;
 			buildPhases = (
 				45F8B6BA254FA02800BB878B /* Sources */,
 				45F8B6BB254FA02800BB878B /* Frameworks */,
@@ -143,14 +203,14 @@
 			);
 			dependencies = (
 			);
-			name = MyApp_TDDExample;
+			name = MyApp_TDDCompleted;
 			productName = MyApp_TDDExample;
-			productReference = 45F8B6BE254FA02800BB878B /* MyApp_TDDExample.app */;
+			productReference = 45F8B6BE254FA02800BB878B /* MyApp_TDDCompleted.app */;
 			productType = "com.apple.product-type.application";
 		};
-		45F8B6D3254FA02A00BB878B /* MyApp_TDDExampleTests */ = {
+		45F8B6D3254FA02A00BB878B /* MyApp_TDDCompletedTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45F8B6EB254FA02A00BB878B /* Build configuration list for PBXNativeTarget "MyApp_TDDExampleTests" */;
+			buildConfigurationList = 45F8B6EB254FA02A00BB878B /* Build configuration list for PBXNativeTarget "MyApp_TDDCompletedTests" */;
 			buildPhases = (
 				45F8B6D0254FA02A00BB878B /* Sources */,
 				45F8B6D1254FA02A00BB878B /* Frameworks */,
@@ -161,28 +221,10 @@
 			dependencies = (
 				45F8B6D6254FA02A00BB878B /* PBXTargetDependency */,
 			);
-			name = MyApp_TDDExampleTests;
+			name = MyApp_TDDCompletedTests;
 			productName = MyApp_TDDExampleTests;
-			productReference = 45F8B6D4254FA02A00BB878B /* MyApp_TDDExampleTests.xctest */;
+			productReference = 45F8B6D4254FA02A00BB878B /* MyApp_TDDCompletedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		45F8B6DE254FA02A00BB878B /* MyApp_TDDExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 45F8B6EE254FA02A00BB878B /* Build configuration list for PBXNativeTarget "MyApp_TDDExampleUITests" */;
-			buildPhases = (
-				45F8B6DB254FA02A00BB878B /* Sources */,
-				45F8B6DC254FA02A00BB878B /* Frameworks */,
-				45F8B6DD254FA02A00BB878B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				45F8B6E1254FA02A00BB878B /* PBXTargetDependency */,
-			);
-			name = MyApp_TDDExampleUITests;
-			productName = MyApp_TDDExampleUITests;
-			productReference = 45F8B6DF254FA02A00BB878B /* MyApp_TDDExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,15 +240,12 @@
 					};
 					45F8B6D3254FA02A00BB878B = {
 						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = 45F8B6BD254FA02800BB878B;
-					};
-					45F8B6DE254FA02A00BB878B = {
-						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 						TestTargetID = 45F8B6BD254FA02800BB878B;
 					};
 				};
 			};
-			buildConfigurationList = 45F8B6B9254FA02800BB878B /* Build configuration list for PBXProject "MyApp_TDDExample" */;
+			buildConfigurationList = 45F8B6B9254FA02800BB878B /* Build configuration list for PBXProject "MyApp_TDDCompleted" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +258,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45F8B6BD254FA02800BB878B /* MyApp_TDDExample */,
-				45F8B6D3254FA02A00BB878B /* MyApp_TDDExampleTests */,
-				45F8B6DE254FA02A00BB878B /* MyApp_TDDExampleUITests */,
+				45F8B6BD254FA02800BB878B /* MyApp_TDDCompleted */,
+				45F8B6D3254FA02A00BB878B /* MyApp_TDDCompletedTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,13 +282,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45F8B6DD254FA02A00BB878B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,8 +289,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456560362551231F005C6EAD /* SignupResponseModel.swift in Sources */,
+				45F8B77E25510CDD00BB878B /* SignupFormRequestModel.swift in Sources */,
+				45F8B7192550150F00BB878B /* SignUpFormValidatorProtocol.swift in Sources */,
+				45B5110425513DE8003E1518 /* MockURLProtocol.swift in Sources */,
+				45F8B712254FA2E800BB878B /* SignUpFormValidator.swift in Sources */,
 				45F8B6C6254FA02800BB878B /* ViewController.swift in Sources */,
+				45F8B7212550210500BB878B /* SIgnupWebServiceProtocol.swift in Sources */,
+				4565603A255123CC005C6EAD /* SignupErrors.swift in Sources */,
+				45F8B71D25501B6400BB878B /* SignupFormModelProtocol.swift in Sources */,
 				45F8B6C2254FA02800BB878B /* AppDelegate.swift in Sources */,
+				45F8B77A25510B1300BB878B /* SignupWebService.swift in Sources */,
 				45F8B6C4254FA02800BB878B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,15 +308,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F8B6D9254FA02A00BB878B /* MyApp_TDDExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45F8B6DB254FA02A00BB878B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45F8B6E4254FA02A00BB878B /* MyApp_TDDExampleUITests.swift in Sources */,
+				45F8B77625510A5700BB878B /* SignupWebServiceTests.swift in Sources */,
+				45F8B768255107CF00BB878B /* SIgnupWebServiceTests.swift in Sources */,
+				45F8B70A254FA0F900BB878B /* SignUpFormValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,13 +319,8 @@
 /* Begin PBXTargetDependency section */
 		45F8B6D6254FA02A00BB878B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 45F8B6BD254FA02800BB878B /* MyApp_TDDExample */;
+			target = 45F8B6BD254FA02800BB878B /* MyApp_TDDCompleted */;
 			targetProxy = 45F8B6D5254FA02A00BB878B /* PBXContainerItemProxy */;
-		};
-		45F8B6E1254FA02A00BB878B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 45F8B6BD254FA02800BB878B /* MyApp_TDDExample */;
-			targetProxy = 45F8B6E0254FA02A00BB878B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -472,6 +501,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyApp_TDDExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -482,9 +512,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.noelpoo.MyApp-TDDExampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp_TDDExample.app/MyApp_TDDExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp_TDDCompleted.app/MyApp_TDDCompleted";
 			};
 			name = Debug;
 		};
@@ -493,6 +524,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyApp_TDDExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -505,52 +537,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp_TDDExample.app/MyApp_TDDExample";
-			};
-			name = Release;
-		};
-		45F8B6EF254FA02A00BB878B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyApp_TDDExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.noelpoo.MyApp-TDDExampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyApp_TDDExample;
-			};
-			name = Debug;
-		};
-		45F8B6F0254FA02A00BB878B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyApp_TDDExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.noelpoo.MyApp-TDDExampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyApp_TDDExample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp_TDDCompleted.app/MyApp_TDDCompleted";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		45F8B6B9254FA02800BB878B /* Build configuration list for PBXProject "MyApp_TDDExample" */ = {
+		45F8B6B9254FA02800BB878B /* Build configuration list for PBXProject "MyApp_TDDCompleted" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45F8B6E6254FA02A00BB878B /* Debug */,
@@ -559,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45F8B6E8254FA02A00BB878B /* Build configuration list for PBXNativeTarget "MyApp_TDDExample" */ = {
+		45F8B6E8254FA02A00BB878B /* Build configuration list for PBXNativeTarget "MyApp_TDDCompleted" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45F8B6E9254FA02A00BB878B /* Debug */,
@@ -568,20 +562,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45F8B6EB254FA02A00BB878B /* Build configuration list for PBXNativeTarget "MyApp_TDDExampleTests" */ = {
+		45F8B6EB254FA02A00BB878B /* Build configuration list for PBXNativeTarget "MyApp_TDDCompletedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45F8B6EC254FA02A00BB878B /* Debug */,
 				45F8B6ED254FA02A00BB878B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		45F8B6EE254FA02A00BB878B /* Build configuration list for PBXNativeTarget "MyApp_TDDExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				45F8B6EF254FA02A00BB878B /* Debug */,
-				45F8B6F0254FA02A00BB878B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

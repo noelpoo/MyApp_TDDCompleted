@@ -1,14 +1,13 @@
 //
-//  MyApp_TDDExampleTests.swift
+//  SIgnupWebServiceTests.swift
 //  MyApp_TDDExampleTests
 //
-//  Created by NoelPoo on 2/11/20.
+//  Created by NoelPoo on 3/11/20.
 //
 
 import XCTest
-@testable import MyApp_TDDExample
 
-class MyApp_TDDExampleTests: XCTestCase {
+class SIgnupWebServiceTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
